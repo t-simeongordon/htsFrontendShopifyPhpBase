@@ -8,3 +8,5 @@ $redirect_uri=$_NGROK_URL . '/php-app/token.php';
 $nonce=bin2hex(random_bytes(12));
 $access_mode='per-user';
 echo $shop
+
+$oauth_url = ''
